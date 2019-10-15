@@ -27,7 +27,7 @@ ZSH_THEME=powerlevel10k/powerlevel10k
 HYPHEN_INSENSITIVE="true"
 
 # Uncomment the following line to disable bi-weekly auto-update checks.
-# DISABLE_AUTO_UPDATE="true"
+DISABLE_AUTO_UPDATE="true"
 
 # Uncomment the following line to automatically update without prompting.
 DISABLE_UPDATE_PROMPT="true"
@@ -119,8 +119,9 @@ source $ZSH/custom/plugins/shell-plugins/explain-shell/zsh-explain-shell.zsh    
 source $ZSH/custom/plugins/forgit/forgit.plugin.zsh                             # forgit plugin
 source $ZSH/custom/plugins/emoji-cli/emoji-cli.plugin.zsh                       # emoji-cli plugin
 
-export AUTOSWITCH_DEFAULT_PYTHON="/usr/bin/python3"
-export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="underline"
+export AUTOSWITCH_DEFAULT_PYTHON='/usr/bin/python3'
+export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='underline'
+export THEFUCK_ALTER_HISTORY=true
 
 # User configuration
 
