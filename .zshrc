@@ -124,6 +124,7 @@ export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="underline"
 
 # User configuration
 source ~/.profile.env       # sources all non-zsh specific configurations (shared between bash and zsh)
+alias zrc='edit ~/.zshrc'                   # opens .zshrc in sublime
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
     [[ -f ~/.p10k.zsh ]] && source ~/.p10k.zsh
