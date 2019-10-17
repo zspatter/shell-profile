@@ -1,2 +1,2 @@
 # shell-profile
-Personal (sanitized) shell profile configuration
+`.zshrc` contains my personal zsh configurations and sources `.profile.env` which contains all of my non-zsh specific configurations.
